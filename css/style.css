@@ -1,0 +1,106 @@
+/*Общие стили*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/*Контейнер для центровки содержимого*/
+.container {
+    width: 30%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/*Стили заголовков*/
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/*Стили формы*/
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/*Стили для подписей*/
+label {
+    margin-top: 10px;
+}
+
+/*Стили для полей ввода, выбора и кнопок*/
+input, select, button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/*Стили для кнопок*/
+button {
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/*Ховер эффект для кнопок*/
+button:hover {
+    background: #0056b3;
+}
+
+/*Стили для таблицы*/
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/*Стили для заголовков таблицы*/
+th {
+    background: #007BFF;
+    color: #fff;
+}
+
+/*Стили ячеек таблицы*/
+td {
+    background: #f9f9f9;
+}
+
+/*Стили для кнопок навигации и кнопки экспорта*/
+.navigation-link, .export-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navigation-link {
+    background: #6c757d;
+}
+
+.navigation-link:hover, .export-btn:hover {
+    background: #218838;
+}
+
+.navigation-link:hover {
+    background: #5a6268;
+}
